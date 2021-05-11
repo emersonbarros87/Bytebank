@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7B9DC26-8323-04EF-BA9F-3A9B6C8FF633" name="T_SIP_FUNCIONARIO">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 01:44:11 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<engineerTo>
+<item key="C8D57915-EE68-937A-4D77-815580A0A574" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="CED96E6D-AF7A-94FD-E696-D0C80A5C43BA">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 01:46:54 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<engineerTo>
+<item key="C8D57915-EE68-937A-4D77-815580A0A574" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="6EE2CB5D-8F62-D292-3883-F67CE48447F1">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 01:50:31 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<engineerTo>
+<item key="C8D57915-EE68-937A-4D77-815580A0A574" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="5D8AD3C8-2D61-832E-9750-EC8F0DC59134">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 01:51:01 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<engineerTo>
+<item key="C8D57915-EE68-937A-4D77-815580A0A574" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="9B2416B3-BB32-80D6-04AE-691339AE32E4">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 01:51:22 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<engineerTo>
+<item key="C8D57915-EE68-937A-4D77-815580A0A574" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="658F83D9-97FD-E796-C50B-D5A20F7B8E68">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 01:51:43 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<engineerTo>
+<item key="C8D57915-EE68-937A-4D77-815580A0A574" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB05BD50-E024-1892-7E1B-4CE845884232" name="T_SIP_FUNCIONARIO PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 01:47:37 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<engineerTo>
+<item key="C8D57915-EE68-937A-4D77-815580A0A574" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CED96E6D-AF7A-94FD-E696-D0C80A5C43BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
