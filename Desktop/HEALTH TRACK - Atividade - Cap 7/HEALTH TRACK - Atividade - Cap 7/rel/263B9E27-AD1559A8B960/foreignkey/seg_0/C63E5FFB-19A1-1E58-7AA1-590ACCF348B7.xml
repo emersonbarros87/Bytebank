@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C63E5FFB-19A1-1E58-7AA1-590ACCF348B7" containerWithKeyObject="3C5E0314-6D3B-1F3F-E59D-607D5A524CA7" localFKIndex="E0A960D2-B99E-0D3B-52CF-6A10C5FBDA69" name="U_PESO_FK">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 16:59:38 UTC</createdTime>
+<generatorID>98C1C16D-AE5E-F4E5-B944-BF10C9A89002</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<referredTableLongName>T_HT_PESO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B73961AF-815D-8048-D171-A825877B46D5</referredTableID>
+<keyObject>90E7316B-655B-B0CF-0DBA-95E026A3177F</keyObject>
+<referredKeyID>90E7316B-655B-B0CF-0DBA-95E026A3177F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_peso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

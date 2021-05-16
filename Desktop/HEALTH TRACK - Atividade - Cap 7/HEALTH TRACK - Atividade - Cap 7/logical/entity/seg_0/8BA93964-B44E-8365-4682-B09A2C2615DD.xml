@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BA93964-B44E-8365-4682-B09A2C2615DD" name="T_HT_ALIMENTO">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:12:23 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_alimento" id="64145917-123D-EFDE-D211-8AE83C7D4EB4">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:12:38 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_calorias" id="52B98F03-9A39-4157-F6A9-90B42FED223A">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:12:42 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data" id="3028447C-1122-8A45-1788-8B1C283A0639">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:12:55 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF0DD8BE-F739-6D60-DCA3-4F7B69B5F5DB" name="T_HT_ADICIONAR_ALIMENTO PK">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:17:11 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64145917-123D-EFDE-D211-8AE83C7D4EB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="689A71B7-D921-0557-EE64-EC9557B0C8DA">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 00:47:32 UTC</createdTime>
+<ownerDesignName>atividade07_logical_model_preview</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

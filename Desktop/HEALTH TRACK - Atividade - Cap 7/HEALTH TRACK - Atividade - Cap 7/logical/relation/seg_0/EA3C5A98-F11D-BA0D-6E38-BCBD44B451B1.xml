@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="consumir" directorySegmentName="seg_0" id="EA3C5A98-F11D-BA0D-6E38-BCBD44B451B1">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 22:35:28 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<sourcePk>321F55DF-F6C3-F35A-1D8E-5F6D23F5AD8A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>907A826F-78DF-CCE5-1315-DB13F211F072</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4201E4E7-B55E-FCCB-FC56-B74B55D1E492</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

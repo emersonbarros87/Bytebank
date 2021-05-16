@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="907A826F-78DF-CCE5-1315-DB13F211F072" name="T_HT_USUARIO">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:08:30 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="6CD3C259-D259-7EC7-0E02-EEB7103CD5DE">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:08:30 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_peso" id="880DFE51-CAB2-C9C5-8C1A-F91E89BF619B">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 22:42:36 UTC</createdTime>
+<generatorID>98C1C16D-AE5E-F4E5-B944-BF10C9A89002</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<referedAttribute>7F02293F-A9B0-8C5F-34B1-2FC2F45B46D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pressao_arterial" id="F4B8DACA-E90A-D89B-7977-087B2AACC955">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 20:51:34 UTC</createdTime>
+<generatorID>9C91F6E3-FCAA-16CA-2828-A188CBB3FF71</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<referedAttribute>93BE8029-682F-0E7A-BBB2-50F9047DAAAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_senha" id="23716903-BA61-949A-C41D-6CA3EC4EECF7">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:08:30 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_altura" id="0A27CC88-1CAF-DD77-4FC9-15928BDFF41E">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:13:57 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_email" id="E2CE826C-02C8-AD43-18DF-A344FF19E000">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:08:30 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_genero" id="91CD7222-AA80-9D2D-AF36-7CD71F21DFE9">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:11:39 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nome" id="E226B843-9E21-7FCC-13D2-10FA939AA1F1">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:08:30 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data_nascimento" id="3C02E773-C31D-C0F6-8F86-20020FFCCEDF">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:08:30 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="321F55DF-F6C3-F35A-1D8E-5F6D23F5AD8A" name="T_HT_USUARIO PK">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-13 02:08:30 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CD3C259-D259-7EC7-0E02-EEB7103CD5DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

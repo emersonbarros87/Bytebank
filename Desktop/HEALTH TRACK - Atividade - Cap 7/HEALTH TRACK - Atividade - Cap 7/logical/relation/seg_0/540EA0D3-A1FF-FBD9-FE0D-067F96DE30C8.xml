@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possui" directorySegmentName="seg_0" id="540EA0D3-A1FF-FBD9-FE0D-067F96DE30C8">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 16:58:29 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<sourcePk>CF0DD8BE-F739-6D60-DCA3-4F7B69B5F5DB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8BA93964-B44E-8365-4682-B09A2C2615DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E4D4B83-E3B3-1454-3201-760899BEF08E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

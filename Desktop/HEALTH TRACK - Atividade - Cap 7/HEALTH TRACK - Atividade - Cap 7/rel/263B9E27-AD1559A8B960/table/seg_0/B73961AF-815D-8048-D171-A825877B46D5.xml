@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B73961AF-815D-8048-D171-A825877B46D5" name="T_HT_PESO">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 16:59:38 UTC</createdTime>
+<generatorID>B6E7814F-EC17-2FD3-5C0A-B2F5496F9743</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_peso" id="9382F440-216D-0064-4042-07B1814B2110">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 16:59:38 UTC</createdTime>
+<generatorID>7F02293F-A9B0-8C5F-34B1-2FC2F45B46D3</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_peso" id="17DB6061-94B5-E136-69F9-A23174D8FFB3">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 16:59:38 UTC</createdTime>
+<generatorID>B564FB0E-E713-7E91-F408-9200689B17BE</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data" id="88E98B4E-1D8F-6C49-C325-6CB1B003FA3B">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 16:59:38 UTC</createdTime>
+<generatorID>F0025A2D-C82E-C92A-2095-E8BF9A333D71</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90E7316B-655B-B0CF-0DBA-95E026A3177F" name="T_HT_PESO_PK">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 16:59:38 UTC</createdTime>
+<generatorID>AD2A4F93-073A-1A19-EC83-F6F999C455B0</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9382F440-216D-0064-4042-07B1814B2110"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

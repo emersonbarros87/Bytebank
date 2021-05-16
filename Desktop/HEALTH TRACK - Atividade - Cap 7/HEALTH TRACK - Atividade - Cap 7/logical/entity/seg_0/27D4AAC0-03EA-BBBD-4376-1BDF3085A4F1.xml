@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27D4AAC0-03EA-BBBD-4376-1BDF3085A4F1" name="T_HT_ADICIONAR_PRESSAO">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:17:30 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pressao_arterial" id="93BE8029-682F-0E7A-BBB2-50F9047DAAAD">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:17:38 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pressao_sistolica" id="C1601971-A03A-D3CA-12C3-04D34588ACA4">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:18:01 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pressao_diastolica" id="30508AF5-20B7-42FE-BA5A-A22C7ED84749">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:18:19 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data" id="9DF95A83-2E9B-E4DA-7A57-E8C0B2CE21C5">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:18:32 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB649C72-2A32-7621-8BD9-8A9F36A719E7" name="T_HT_ADICIONAR_PRESSAO PK">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-12 01:18:00 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="263B9E27-B6BE-68B8-1624-AD1559A8B960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93BE8029-682F-0E7A-BBB2-50F9047DAAAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

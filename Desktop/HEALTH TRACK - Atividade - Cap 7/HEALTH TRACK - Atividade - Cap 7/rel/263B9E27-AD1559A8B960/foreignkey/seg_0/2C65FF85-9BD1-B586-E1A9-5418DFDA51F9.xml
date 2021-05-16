@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C65FF85-9BD1-B586-E1A9-5418DFDA51F9" containerWithKeyObject="8B6EB645-19E0-3539-F876-503558131D4E" localFKIndex="ADBBF633-7B9A-16A7-B80D-7874A31DF6FF" name="HT_U_ATIVIDADE_FISICA_FK">
+<createdBy>cesar.rodrigues</createdBy>
+<createdTime>2020-05-15 16:59:38 UTC</createdTime>
+<generatorID>0A86CB05-D364-C565-F9F7-972716C2F3ED</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<referredTableLongName>T_HT_ATIVIDADE_FISICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>738E23A5-1690-26FE-9BC6-71BC0E4B5502</referredTableID>
+<keyObject>077E811D-6EB6-842B-723D-845D0C08964A</keyObject>
+<referredKeyID>077E811D-6EB6-842B-723D-845D0C08964A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_atividade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
