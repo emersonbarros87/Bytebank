@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D6AE4EF-5ADA-BA0B-1D09-9BFE30BB27BC" containerWithKeyObject="F3F8799B-9D39-9494-B158-8F2DED88FA9E" localFKIndex="1049555C-5938-657C-71FA-0E6D2ECADC1D" name="T__ACCOUNTS_T_OPPORTUNITIES_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 01:01:15 UTC</createdTime>
+<generatorID>C0C1EAE5-9E22-69F2-45B5-BD0E2D7B6942</generatorID>
+<ownerDesignName>PROJECT 2</ownerDesignName>
+<referredTableLongName>T_OPPORTUNITIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D5F9DF2D-4D89-D84D-B1EF-5421A7825647</referredTableID>
+<keyObject>224B6DF1-005D-33B7-2398-469AA93486FD</keyObject>
+<referredKeyID>224B6DF1-005D-33B7-2398-469AA93486FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>T_OPPORTUNITIES_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

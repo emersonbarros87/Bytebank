@@ -28,7 +28,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_calorias" id="52B98F03-9A39-4157-F6A9-90B42FED223A">
+<Attribute name="nr_calorias" id="52B98F03-9A39-4157-F6A9-90B42FED223A">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-12 01:12:42 UTC</createdTime>
 <ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>

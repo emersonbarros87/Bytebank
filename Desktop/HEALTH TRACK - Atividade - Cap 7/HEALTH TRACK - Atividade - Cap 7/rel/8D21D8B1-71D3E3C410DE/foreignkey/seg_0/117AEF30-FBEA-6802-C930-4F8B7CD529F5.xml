@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="117AEF30-FBEA-6802-C930-4F8B7CD529F5" containerWithKeyObject="3E29D9BD-1E34-AD57-A5AC-40D51F14C4DA" localFKIndex="305B3D6B-4611-2969-939E-B523DE3A700F" name="T_USER_FOOD_T_FOOD_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>64284069-9133-9294-ADEA-C7DAEBFF0445</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<referredTableLongName>T_FOOD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9E96751B-642C-45D3-52BC-084024585E81</referredTableID>
+<keyObject>2748BDC8-2021-51B7-FB6C-E0419B2E869C</keyObject>
+<referredKeyID>2748BDC8-2021-51B7-FB6C-E0419B2E869C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_food</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

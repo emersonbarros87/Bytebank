@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="712951F6-B203-BA35-2FE0-1841D3D63D81" mainViewID="C431E941-2A73-2426-882D-56EAAAED0FF4">
-<createdBy>cesar.rodrigues</createdBy>
-<createdTime>2020-05-12 00:47:32 UTC</createdTime>
-<ownerDesignName>atividade07_logical_model_preview</ownerDesignName>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="63E330E8-4D5C-11BF-E17A-8FD0C2550537" mainViewID="7DC3DF7A-368B-0F4E-4976-9DAE0896412A">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-16 17:52:07 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

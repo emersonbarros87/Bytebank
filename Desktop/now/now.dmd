@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="now" id="40950C52-D27E-3851-3705-0615B9474342" version="3.5">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 01:41:50 UTC</createdTime>
+<ownerDesignName>now</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>40950C52-D27E-3851-3705-0615B9474342</designId>
+</OSDM_Design>

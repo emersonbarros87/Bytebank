@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prescrever" directorySegmentName="seg_0" id="FCB5532A-624A-3C1B-0EC5-893A2E84A118">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:48:16 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<sourcePk>0BC4EA4C-8076-869F-763D-1DC33B33F1E7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C2F199C-0E05-38C6-F46A-FC0D70777C4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AEB4ED15-C6A0-DB49-FE97-02A040C9B122</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

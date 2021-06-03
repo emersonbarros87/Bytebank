@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2B9D199-7CBC-E59C-B018-43F80C7DB705" name="T_CONTACTS">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:09:22 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contato" id="05826839-B7D3-A64F-C50D-91178438AE2B">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:19:06 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_origem" id="A9C89F63-FC5E-7A3E-6CE8-173CEEEC8F2E">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:56:07 UTC</createdTime>
+<generatorID>2AF2DCB6-892B-6E23-8431-6DE1543F9350</generatorID>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<referedAttribute>54D98E87-4BA5-9313-E93C-89D69D028822</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_conta" id="ECCB3F6A-6D70-50EC-3B40-3481EF6CA2F0">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:00:32 UTC</createdTime>
+<generatorID>0C4F37DD-7754-0332-DB3B-C5F53B51D448</generatorID>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<referedAttribute>ED7D26E2-5B02-2290-806A-550D1A57701B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="EAB0A4A2-9D7B-0CF2-8EDF-59EE4C52F965">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:19:28 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_sobrenome" id="CB1347C6-C3BA-DF09-B04F-EE9340BBC8C9">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:19:49 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_depto" id="B9880E23-2E71-7A87-CFF2-F75CD5D2EF92">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:20:08 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9298B6D1-7CA9-8322-253F-CA2E60FD94C3" name="T_CONTACTS PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:19:18 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05826839-B7D3-A64F-C50D-91178438AE2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

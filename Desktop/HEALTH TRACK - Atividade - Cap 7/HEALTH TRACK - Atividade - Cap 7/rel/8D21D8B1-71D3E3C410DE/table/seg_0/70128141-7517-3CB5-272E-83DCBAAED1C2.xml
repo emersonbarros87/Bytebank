@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70128141-7517-3CB5-272E-83DCBAAED1C2" name="T_PRESSURE">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>B4BFE441-5DC3-F1DD-0EF5-985E0E7720B5</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pres_arterial" id="FC8F82EC-676A-83B4-4D5F-96ACC9F5618E">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>D1F2E6AF-C5DB-5BC5-9EE4-BFED6AFED83D</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_pres_sistolica" id="A665994A-6722-8BC0-78A1-7603908D1538">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>0D63ABE5-79A7-E595-CF96-4652773FBD69</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_pres_diastolica" id="B3C04AC6-9CE5-D133-59AC-FBF7C771D969">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>1134E20E-5993-5789-7781-957BDBA9B385</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data" id="9A2B6884-0FB6-8381-AEFC-EF14C817D9BD">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>18C250F2-FAAB-3A79-AD0D-C9B1EAE7ED98</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9234CA9-4996-BF20-5CB1-49CEC5E2DB96" name="T_ADD_PRESSURE_PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>8E8E6C58-71B4-4EDD-B46F-58512775EB3E</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC8F82EC-676A-83B4-4D5F-96ACC9F5618E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

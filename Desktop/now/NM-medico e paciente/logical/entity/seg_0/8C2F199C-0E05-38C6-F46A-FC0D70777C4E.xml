@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C2F199C-0E05-38C6-F46A-FC0D70777C4E" name="T_CONSULTA">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:28:57 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_consulta" id="EEAD300B-C274-7C24-59B3-31254CBB8CCD">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:34:38 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="457EB9BD-99B9-F86C-9ED3-5190CF7852FD">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:31:43 UTC</createdTime>
+<generatorID>C15F8144-6F0A-412B-5E4D-DE6F59BEE54A</generatorID>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<referedAttribute>0B3857BB-FD6E-49F0-53CC-E0D55AF9D567</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_paciente" id="B15E08B9-A7D0-1099-6CC6-7F016ADCDE78">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:33:08 UTC</createdTime>
+<generatorID>679C200E-9BC8-00EC-B311-AF0ADD6F6B49</generatorID>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<referedAttribute>B56221FC-64FF-39F5-D025-4C46F4AE8D4F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_consulta" id="3EC29896-AFE5-F746-F26A-D168E3B7CFB7">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:30:14 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_consultorio" id="ABDDD8AD-1FC8-6372-9088-BDF11E51F252">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:30:36 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0BC4EA4C-8076-869F-763D-1DC33B33F1E7" name="T_CONSULTA PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:34:46 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEAD300B-C274-7C24-59B3-31254CBB8CCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

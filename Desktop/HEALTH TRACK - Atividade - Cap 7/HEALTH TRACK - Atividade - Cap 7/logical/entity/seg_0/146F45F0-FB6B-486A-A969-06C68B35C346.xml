@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_nome" id="4DFA8774-429E-1898-5BA4-95D9B4F6D37E">
 <createdBy>cesar.rodrigues</createdBy>

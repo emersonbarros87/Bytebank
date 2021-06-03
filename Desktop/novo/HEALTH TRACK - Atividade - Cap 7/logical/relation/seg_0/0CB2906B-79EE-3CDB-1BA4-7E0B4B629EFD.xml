@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuiv1" directorySegmentName="seg_0" id="0CB2906B-79EE-3CDB-1BA4-7E0B4B629EFD">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-16 18:22:54 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<sourcePk>F9F0C478-90EC-FBBD-F5DE-8649AD71802D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B523660-60D6-1663-9E82-C49578560895</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>87098907-EA54-4C1B-FF4C-6C4C3FE08065</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

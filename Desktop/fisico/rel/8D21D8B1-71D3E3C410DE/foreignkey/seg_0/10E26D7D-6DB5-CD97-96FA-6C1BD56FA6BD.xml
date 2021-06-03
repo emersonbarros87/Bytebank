@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10E26D7D-6DB5-CD97-96FA-6C1BD56FA6BD" containerWithKeyObject="F218EB2C-3C27-9992-838D-4694779CA85D" localFKIndex="2B6BB5AE-4EF8-EAFB-93DC-786A2928527F" name="T_USER_T_FREEDOM_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>72DFE785-DC38-C0E7-4EBB-3B44117A77DB</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<referredTableLongName>T_FREEDOM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94290117-33CF-2EFF-E4DD-0F36DE0E15EB</referredTableID>
+<keyObject>5DB10493-C6BA-2E18-61C4-829314DEADBF</keyObject>
+<referredKeyID>5DB10493-C6BA-2E18-61C4-829314DEADBF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_freedom</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

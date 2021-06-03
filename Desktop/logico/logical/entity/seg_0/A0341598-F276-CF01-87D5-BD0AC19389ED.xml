@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0341598-F276-CF01-87D5-BD0AC19389ED" name="T_TYPE_TRAINING">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-16 18:16:25 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_treino" id="8151CCEA-32E7-97E7-91D7-D87A00B1D713">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 19:57:48 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_treino" id="2862D560-82D2-B269-D389-D169A703FD10">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:04:29 UTC</createdTime>
+<generatorID>19A3ACE6-F14D-E192-B38F-56C0E7CB6EAF</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<referedAttribute>22EF99E8-2AA0-C225-96C5-4F0D83807604</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nome" id="EED3F4A6-0C68-237B-646C-50C0A90F96FC">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:00:21 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_descricao" id="287369AE-F26F-C66F-F2B9-6C93BB193BE1">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:00:39 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF4F6217-3068-AF22-CB60-8D257440031D" name="T_TYPE_TRAINING PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 19:58:03 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8151CCEA-32E7-97E7-91D7-D87A00B1D713</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

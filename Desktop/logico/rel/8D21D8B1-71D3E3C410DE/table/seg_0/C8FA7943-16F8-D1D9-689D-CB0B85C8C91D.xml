@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8FA7943-16F8-D1D9-689D-CB0B85C8C91D" name="T_USER_TRAINING">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>87098907-EA54-4C1B-FF4C-6C4C3FE08065</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_TRAINING_cd_treino" id="B558B724-DEF5-AEC6-1263-816040B94E05">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>2D62FFBB-BBB4-0925-C784-35CB36875159</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B443DE38-5157-C859-B16A-B795C605DE19" referredColumn="F6920C02-951E-DE59-689B-713034CDCD9D"/>
+</associations>
+</Column>
+<Column name="T_USER_cd_usuario" id="F32F5DBF-27A0-60EA-D359-4BB7835CB2F0">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>2BAB5D6F-338B-0E73-23BE-C5EBA6A816D5</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EC7EFAC-5476-1795-8854-3F85996E5EFA" referredColumn="2A0B5254-2E74-1539-91D0-8A3C562CB546"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26B97199-A874-DECA-4E10-8479FD29488D" name="T_USER_TRAINING_PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>C296E5F1-BE76-F6AB-8570-93D5A0947078</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F32F5DBF-27A0-60EA-D359-4BB7835CB2F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49F3F32F-96AC-97F7-B3D4-F6A507EB798B" name="T_USER_TRAINING_T_TRAINING_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>0CB2906B-79EE-3CDB-1BA4-7E0B4B629EFD</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B558B724-DEF5-AEC6-1263-816040B94E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="405D2520-60CC-EBC7-A53D-E2DAB661BB5E" name="T_USER_TRAINING_T_USER_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>A18B7080-F122-7D11-1646-2A3AAF728B4F</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F32F5DBF-27A0-60EA-D359-4BB7835CB2F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

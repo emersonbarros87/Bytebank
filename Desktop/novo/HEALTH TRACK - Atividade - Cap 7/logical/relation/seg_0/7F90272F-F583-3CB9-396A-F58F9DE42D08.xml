@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="consumirv2" directorySegmentName="seg_0" id="7F90272F-F583-3CB9-396A-F58F9DE42D08">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-16 18:20:42 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60CD08DC-362A-6F47-73DB-485F765436D8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>27D48356-7386-460B-ECBD-2B2A973671AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA2B77FF-46FC-A812-2DB0-A63148079293" name="T_CONTACTS">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>D2B9D199-7CBC-E59C-B018-43F80C7DB705</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contato" id="25545A82-7A54-6904-48D3-C7BDBCC4AB1F">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>05826839-B7D3-A64F-C50D-91178438AE2B</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LEADS_id_origem" id="948C35A2-A477-7E83-DBB9-9A3212E7E3AC">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>A9C89F63-FC5E-7A3E-6CE8-173CEEEC8F2E</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CEC845C-3A4E-0004-1A9A-D60B3F7414F0" referredColumn="BD5B66BD-D09B-736D-4FAB-03EDFFD069C6"/>
+</associations>
+</Column>
+<Column name="T_ACCOUNT_nm_conta" id="6EE9D22C-149C-6156-C87E-A6145A08C587">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>ECCB3F6A-6D70-50EC-3B40-3481EF6CA2F0</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4ECEA6A-7D68-5132-1FAA-71FAA0044F34" referredColumn="46A3176F-29C1-00C0-B7DE-5D50138BA6F2"/>
+</associations>
+</Column>
+<Column name="nm_contato" id="6795402A-6498-FC13-E58B-F7E2B6672065">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>EAB0A4A2-9D7B-0CF2-8EDF-59EE4C52F965</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_sobrenome" id="D1CA2D1F-BCE6-4709-DC3A-6A1B90B113E6">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>CB1347C6-C3BA-DF09-B04F-EE9340BBC8C9</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_depto" id="7BD8544A-391D-C6B8-EA0D-2607E7394DCE">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>B9880E23-2E71-7A87-CFF2-F75CD5D2EF92</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3C61135-6A70-28C8-3E18-B4015B928855" name="T_CONTACTS_PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>9298B6D1-7CA9-8322-253F-CA2E60FD94C3</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25545A82-7A54-6904-48D3-C7BDBCC4AB1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2191F932-D397-E057-7EDF-F93205AE92CD" name="T_CONTACTS_T_ACCOUNT_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>0C4F37DD-7754-0332-DB3B-C5F53B51D448</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EE9D22C-149C-6156-C87E-A6145A08C587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46BD19DD-7F43-10BB-E118-5AB53616E4ED" name="T_CONTACTS_T_LEADS_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>2AF2DCB6-892B-6E23-8431-6DE1543F9350</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="948C35A2-A477-7E83-DBB9-9A3212E7E3AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

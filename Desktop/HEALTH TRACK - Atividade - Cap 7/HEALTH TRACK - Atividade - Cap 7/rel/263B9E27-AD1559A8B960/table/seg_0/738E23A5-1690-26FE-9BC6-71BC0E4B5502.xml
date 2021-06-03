@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nm_calorias" id="B23BE528-CE2F-0E6B-6D35-BDB679078801">
+<Column name="nr_calorias" id="B23BE528-CE2F-0E6B-6D35-BDB679078801">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>0FFFAB68-647C-4333-68F7-24CBE20D0994</generatorID>

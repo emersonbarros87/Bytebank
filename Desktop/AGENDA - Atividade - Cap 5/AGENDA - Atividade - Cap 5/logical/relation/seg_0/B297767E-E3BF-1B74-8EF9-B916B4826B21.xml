@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="terv2" directorySegmentName="seg_0" id="B297767E-E3BF-1B74-8EF9-B916B4826B21">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 21:09:03 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<sourcePk>E73A250D-667C-B155-562B-27ABF44C78F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFE80D01-C50A-861D-A9FB-C681494296EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C23E55A-5381-E764-484A-2FE38417F516</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

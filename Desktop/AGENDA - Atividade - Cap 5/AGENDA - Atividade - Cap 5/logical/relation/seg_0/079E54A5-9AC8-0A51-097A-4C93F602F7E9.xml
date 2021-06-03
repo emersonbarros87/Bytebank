@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="devev1" directorySegmentName="seg_0" id="079E54A5-9AC8-0A51-097A-4C93F602F7E9">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-14 21:50:36 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>E73A250D-667C-B155-562B-27ABF44C78F1</sourcePk>
+<targetPk>1ED72A0F-6A5F-177B-7D20-5117B3093680</targetPk>
+<dominantRole>FFE80D01-C50A-861D-A9FB-C681494296EC</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FFE80D01-C50A-861D-A9FB-C681494296EC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FA421C9D-BE80-AE05-8456-5BF8CE14374B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

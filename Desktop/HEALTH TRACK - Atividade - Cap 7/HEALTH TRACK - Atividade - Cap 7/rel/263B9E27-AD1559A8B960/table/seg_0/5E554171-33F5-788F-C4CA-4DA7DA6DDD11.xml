@@ -28,8 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ds_descricao" id="AB90CF68-3ADB-4DFB-D174-C0FE5AE173B9">
@@ -41,8 +41,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="T_HT_ALIMENTO_cd_alimento" id="7D11AAE9-06B7-1F54-49B2-8438DD5CF0E2">
@@ -54,7 +54,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -75,7 +75,7 @@
 <colUsage columnID="4DB87C27-8AD5-9F8A-2513-3F59D635E8BA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="05432A2B-D62D-6831-519B-FA1E2E012BA4" name="TIPO_ALIMENTO_FK">
+<ind_PK_UK id="05432A2B-D62D-6831-519B-FA1E2E012BA4" name="T_HT_TIPO_ALIMENTO_T_HT_ALIMENTO_FK">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>540EA0D3-A1FF-FBD9-FE0D-067F96DE30C8</generatorID>

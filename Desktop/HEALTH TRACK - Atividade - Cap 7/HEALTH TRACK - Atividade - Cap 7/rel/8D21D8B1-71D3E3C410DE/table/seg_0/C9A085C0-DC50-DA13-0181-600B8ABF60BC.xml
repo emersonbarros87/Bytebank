@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9A085C0-DC50-DA13-0181-600B8ABF60BC" name="T_TYPE_TRAINING">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>A0341598-F276-CF01-87D5-BD0AC19389ED</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_treino" id="07946383-B333-E709-FA08-2AAA2B327974">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>8151CCEA-32E7-97E7-91D7-D87A00B1D713</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TRAINING_cd_treino" id="B7CB745C-72B4-3C61-87C9-0D08D1249BEE">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>2862D560-82D2-B269-D389-D169A703FD10</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B08B0896-F606-1015-46E9-9666D100A013" referredColumn="F6920C02-951E-DE59-689B-713034CDCD9D"/>
+</associations>
+</Column>
+<Column name="nm_nome" id="3FAD97A6-5A02-06B8-666D-E235E9912ECB">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>EED3F4A6-0C68-237B-646C-50C0A90F96FC</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_descricao" id="73C947BE-66E0-971A-7BF1-CCD2B3F1FAAF">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>287369AE-F26F-C66F-F2B9-6C93BB193BE1</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C42823B3-3B10-FCA9-3F44-D66006F8DA05" name="T_TYPE_TRAINING_PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>FF4F6217-3068-AF22-CB60-8D257440031D</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07946383-B333-E709-FA08-2AAA2B327974"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="471E1CB8-AE76-C4EA-111F-B0C86AFE49CE" name="T_TYPE_TRAINING__IDX">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>19A3ACE6-F14D-E192-B38F-56C0E7CB6EAF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B7CB745C-72B4-3C61-87C9-0D08D1249BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B135EECF-072B-5DCD-0B84-0D1A6D6E81BE" name="T_TYPE_TRAINING_T_TRAINING_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>19A3ACE6-F14D-E192-B38F-56C0E7CB6EAF</generatorID>
+<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7CB745C-72B4-3C61-87C9-0D08D1249BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

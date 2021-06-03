@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5F9DF2D-4D89-D84D-B1EF-5421A7825647" name="T_OPPORTUNITIES">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 01:01:15 UTC</createdTime>
+<generatorID>F79DFF59-63FF-F89E-8778-DD4D4AE6D253</generatorID>
+<ownerDesignName>Project FIAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_contrato" id="B6A5C6E8-DA1F-2F4C-59C4-AA5320AAF884">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 01:01:15 UTC</createdTime>
+<generatorID>A5C29C95-3252-01DE-D70C-26D606543DCC</generatorID>
+<ownerDesignName>Project FIAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_oport" id="A552202E-FBB2-2DE3-68E1-4E38A65993C6">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 01:01:15 UTC</createdTime>
+<generatorID>D49A6148-C8D6-C1A7-497C-56D24A254A79</generatorID>
+<ownerDesignName>Project FIAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_OPPORTUNITIES_ID" id="9E70012B-69B9-75ED-3BDB-9F0436FF1940">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 01:01:15 UTC</createdTime>
+<ownerDesignName>Project FIAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="T_LEADS_T_LEADS_ID" id="167578D2-D53E-419C-0F97-8727410374F0">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 01:01:15 UTC</createdTime>
+<ownerDesignName>Project FIAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0486AD0-ECD2-C999-FBE6-8B7F576B3ECE" referredColumn="96A9C721-00CA-08A0-C16E-BD6BF6E6ED9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="224B6DF1-005D-33B7-2398-469AA93486FD" name="T_OPPORTUNITIES_PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 01:01:15 UTC</createdTime>
+<ownerDesignName>Project FIAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9E70012B-69B9-75ED-3BDB-9F0436FF1940"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4A640B6-759F-CE8D-1DDC-51133C1B4148" name="T_OPPORTUNITIES_T_LEADS_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 01:01:15 UTC</createdTime>
+<generatorID>69D28191-6E9D-7D91-85D1-24D823C4B3C1</generatorID>
+<ownerDesignName>Project FIAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="167578D2-D53E-419C-0F97-8727410374F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

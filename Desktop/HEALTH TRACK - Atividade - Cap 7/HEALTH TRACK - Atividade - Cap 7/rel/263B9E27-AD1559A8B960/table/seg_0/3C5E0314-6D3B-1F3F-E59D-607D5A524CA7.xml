@@ -28,8 +28,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nr_senha" id="D78D90CB-F53C-6D4C-D675-FE24B98FD2D2">
@@ -103,7 +102,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cd_peso_fk" id="29F0D3B8-FC38-95C4-2A69-37AA03181AA0">
+<Column name="T_HT_PESO_cd_peso" id="29F0D3B8-FC38-95C4-2A69-37AA03181AA0">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>880DFE51-CAB2-C9C5-8C1A-F91E89BF619B</generatorID>
@@ -112,14 +111,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="C63E5FFB-19A1-1E58-7AA1-590ACCF348B7" referredColumn="9382F440-216D-0064-4042-07B1814B2110"/>
 </associations>
 </Column>
-<Column name="cd_pressao_arterial_fk" id="861E950C-507C-F783-D12E-C8062D61F781">
+<Column name="T_HT_ADICIONAR_PRESSAO_cd_pressao_arterial" id="861E950C-507C-F783-D12E-C8062D61F781">
 <createdBy>César</createdBy>
 <createdTime>2020-05-17 17:09:50 UTC</createdTime>
 <generatorID>F4B8DACA-E90A-D89B-7977-087B2AACC955</generatorID>
@@ -128,7 +127,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -149,7 +148,7 @@
 <colUsage columnID="C39C02C7-08F0-D05F-DE00-3542FDED9288"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E0A960D2-B99E-0D3B-52CF-6A10C5FBDA69" name="U_PESO_FK">
+<ind_PK_UK id="E0A960D2-B99E-0D3B-52CF-6A10C5FBDA69" name="T_HT_USUARIO_T_HT_PESO_FK">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>98C1C16D-AE5E-F4E5-B944-BF10C9A89002</generatorID>
@@ -160,7 +159,7 @@
 <colUsage columnID="29F0D3B8-FC38-95C4-2A69-37AA03181AA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3806A496-18C5-900C-47BE-BEAE778433B5" name="U_PRESSAO_FK">
+<ind_PK_UK id="3806A496-18C5-900C-47BE-BEAE778433B5" name="T_HT_USUARIO_T_HT_ADICIONAR_PRESSAO_FK">
 <createdBy>César</createdBy>
 <createdTime>2020-05-17 17:09:50 UTC</createdTime>
 <generatorID>9C91F6E3-FCAA-16CA-2828-A188CBB3FF71</generatorID>

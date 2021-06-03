@@ -12,7 +12,7 @@
 <showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <display>false</display>
-<notation>1</notation>
+<notation>2</notation>
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0E4D4B83-E3B3-1454-3201-760899BEF08E" otype="Entity" vid="3C6FA828-43B9-5FF4-D880-56D92FCF83FD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -118,7 +118,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B6E7814F-EC17-2FD3-5C0A-B2F5496F9743" otype="Entity" vid="364ADAD4-0799-4566-CFE8-02C31E854A4B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="957" y="351" width="219" height="113"/>
+<bounds x="957" y="351" width="220" height="113"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EAF3D15B-0E2D-CE0E-8628-AD56398832C4" otype="Entity" vid="2D5B5EE5-0C79-FA06-48C7-6BEC418B6D1E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

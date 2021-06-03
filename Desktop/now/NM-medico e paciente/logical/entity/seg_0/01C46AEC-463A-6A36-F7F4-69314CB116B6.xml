@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01C46AEC-463A-6A36-F7F4-69314CB116B6" name="T_MEDICAMENTO">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:44:00 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_medicamento" id="2B9C89D4-F828-503F-7F9F-A4A8E1C2FDAA">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:44:33 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_medicamento" id="6308D0C9-FFB3-AD9D-792F-ED25C6C596A2">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:44:41 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_validade" id="0CC72316-6D0B-2D01-6F00-9DE33720D08E">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:44:59 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F433CB3-2EE1-B132-3F1A-561A8704BD4C" name="T_MEDICAMENTO PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:44:39 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B9C89D4-F828-503F-7F9F-A4A8E1C2FDAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

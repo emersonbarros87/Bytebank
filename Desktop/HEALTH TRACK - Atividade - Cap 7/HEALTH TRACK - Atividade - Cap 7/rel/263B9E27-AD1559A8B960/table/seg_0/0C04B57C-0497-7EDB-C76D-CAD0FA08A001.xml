@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -45,7 +45,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -66,7 +66,7 @@
 <colUsage columnID="16B4CD38-5507-A32C-3404-0037DE378D6B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2A4F4027-5CE6-7038-D314-D5A3E284EFE4" name="UA_USUARIO_FK">
+<ind_PK_UK id="2A4F4027-5CE6-7038-D314-D5A3E284EFE4" name="T_HT_USUARIO_ALIMENTO_T_HT_USUARIO_FK">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>EA3C5A98-F11D-BA0D-6E38-BCBD44B451B1</generatorID>
@@ -77,7 +77,7 @@
 <colUsage columnID="16B4CD38-5507-A32C-3404-0037DE378D6B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A0C7C8A4-259B-0439-5426-422C1B2042F8" name="UA_ALIMENTO_FK">
+<ind_PK_UK id="A0C7C8A4-259B-0439-5426-422C1B2042F8" name="T_HT_USUARIO_ALIMENTO_T_HT_ALIMENTO_FK">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>A4E715C5-4841-1D5C-6D38-F0F9579BEC04</generatorID>

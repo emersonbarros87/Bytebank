@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFE80D01-C50A-861D-A9FB-C681494296EC" name="T_ENDERECO">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 20:04:42 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cep" id="E91B6576-0590-C211-0441-48400072A7EB">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 20:30:52 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_logradouro" id="482FF195-14A8-7815-B2F4-82C9D17AC567">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 20:08:12 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="23EFFF19-8B77-709E-01DD-4FC18E628CE1">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-15 00:16:06 UTC</createdTime>
+<generatorID>0118B508-0FFE-9CF0-54A8-619610734142</generatorID>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<referedAttribute>35117C97-07FE-79F5-2FE7-CC3F6AD9B08B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E73A250D-667C-B155-562B-27ABF44C78F1" name="T_ENDERECO PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 20:13:20 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E91B6576-0590-C211-0441-48400072A7EB</attributeRef>
+<attributeRef>23EFFF19-8B77-709E-01DD-4FC18E628CE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

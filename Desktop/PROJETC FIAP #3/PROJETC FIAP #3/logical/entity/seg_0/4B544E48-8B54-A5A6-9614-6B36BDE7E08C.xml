@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B544E48-8B54-A5A6-9614-6B36BDE7E08C" name="T_LEADS">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:08:41 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_origem" id="54D98E87-4BA5-9313-E93C-89D69D028822">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:10:56 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_leads" id="1FCA92BB-96E4-D8A3-DFB2-8602D1F0D02B">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:11:14 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_empresa" id="C49FB951-3A07-D9F0-54CF-9A4300B2D2EC">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:11:35 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_leads" id="6DA64D6F-5F21-5FD8-3AFA-BB31C2A434B2">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:11:56 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pr_lead" id="7EC99D60-F309-4712-E7C0-C8A3B9F95CF4">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:12:19 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BE9C107-3406-DBF2-55F8-4E77392A5845" name="T_LEADS PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:11:12 UTC</createdTime>
+<ownerDesignName>PROJETC FIAP #3</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54D98E87-4BA5-9313-E93C-89D69D028822</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

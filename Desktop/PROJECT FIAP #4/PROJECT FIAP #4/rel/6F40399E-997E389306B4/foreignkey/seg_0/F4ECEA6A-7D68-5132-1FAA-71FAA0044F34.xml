@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F4ECEA6A-7D68-5132-1FAA-71FAA0044F34" containerWithKeyObject="DA2B77FF-46FC-A812-2DB0-A63148079293" localFKIndex="2191F932-D397-E057-7EDF-F93205AE92CD" name="T_CONTACTS_T_ACCOUNT_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 15:02:24 UTC</createdTime>
+<generatorID>0C4F37DD-7754-0332-DB3B-C5F53B51D448</generatorID>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<referredTableLongName>T_ACCOUNT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7FB875E6-B286-E801-3549-D836A3E63123</referredTableID>
+<keyObject>A05F0E0B-BA90-2155-C107-A2E8F87BFEF0</keyObject>
+<referredKeyID>A05F0E0B-BA90-2155-C107-A2E8F87BFEF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nm_conta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

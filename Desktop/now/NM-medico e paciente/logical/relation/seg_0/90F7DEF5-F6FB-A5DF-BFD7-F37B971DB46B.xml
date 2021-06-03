@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="90F7DEF5-F6FB-A5DF-BFD7-F37B971DB46B">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:50:18 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<sourcePk>1F433CB3-2EE1-B132-3F1A-561A8704BD4C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>01C46AEC-463A-6A36-F7F4-69314CB116B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AEB4ED15-C6A0-DB49-FE97-02A040C9B122</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

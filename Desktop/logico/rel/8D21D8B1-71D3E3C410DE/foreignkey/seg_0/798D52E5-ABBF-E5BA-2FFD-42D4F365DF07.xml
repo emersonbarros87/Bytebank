@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="798D52E5-ABBF-E5BA-2FFD-42D4F365DF07" containerWithKeyObject="F218EB2C-3C27-9992-838D-4694779CA85D" localFKIndex="966428A6-6FBD-0F53-B8A8-12704877E74A" name="T_USER_T__WEIGHT_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>9E325E02-B92A-1DFB-921E-6C3EAE8E6CEB</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<referredTableLongName>T__WEIGHT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8EB965A8-2A96-2A08-AE21-AF85FFDD7C8C</referredTableID>
+<keyObject>2B5E978B-DA47-AF06-AB8E-34055FFCD6C4</keyObject>
+<referredKeyID>2B5E978B-DA47-AF06-AB8E-34055FFCD6C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_peso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

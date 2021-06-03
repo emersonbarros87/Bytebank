@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B443DE38-5157-C859-B16A-B795C605DE19" containerWithKeyObject="C8FA7943-16F8-D1D9-689D-CB0B85C8C91D" localFKIndex="49F3F32F-96AC-97F7-B3D4-F6A507EB798B" name="T_USER_TRAINING_T_TRAINING_FK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:37:58 UTC</createdTime>
+<generatorID>0CB2906B-79EE-3CDB-1BA4-7E0B4B629EFD</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<referredTableLongName>T_TRAINING</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E336A83-BC1A-0720-47D4-1A2F488AF1D8</referredTableID>
+<keyObject>A244E288-F3B5-CAB5-275E-9530CE993C3B</keyObject>
+<referredKeyID>A244E288-F3B5-CAB5-275E-9530CE993C3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_treino</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

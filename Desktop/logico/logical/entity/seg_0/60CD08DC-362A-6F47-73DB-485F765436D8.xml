@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60CD08DC-362A-6F47-73DB-485F765436D8" name="T_USER_FOOD">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-16 18:04:23 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="CE207ACC-696D-420E-87DF-14C706E1E1B8">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:27:51 UTC</createdTime>
+<generatorID>6A407016-6514-BFE1-7E82-97194400D49F</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<referedAttribute>5051AA8E-87CB-313E-D3DD-F9A83E4D08A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_food" id="0CAD6891-DC92-3ED7-19BB-A7B2413EB965">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:34:01 UTC</createdTime>
+<generatorID>64284069-9133-9294-ADEA-C7DAEBFF0445</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<referedAttribute>158226D4-9B64-7501-0EE6-27517F40345A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3C04513-FB33-6EE1-5861-353EA77F1652" name="T_USER_FOOD PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-17 20:27:50 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE207ACC-696D-420E-87DF-14C706E1E1B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

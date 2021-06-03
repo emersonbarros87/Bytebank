@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A22B4C0-8F2F-AD04-A008-E105839A7E28" name="T_MODELO">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-14 21:45:22 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_mobile" id="DE71E5AA-2390-7277-2B91-3C17D5972881">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-14 21:45:46 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_fixo" id="5EA3727E-6F97-03D7-EAD3-DE3D0FA0E9CD">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-14 21:46:26 UTC</createdTime>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="0987EEF2-CE9B-672F-1295-1FFBBC997625">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-14 21:49:04 UTC</createdTime>
+<generatorID>C994EB25-3C4E-6F01-DD1D-D187811B2A01</generatorID>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<referedAttribute>3CD6849F-25D0-670B-19C0-F78E3DECEBCB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_telefone" id="3338D392-604B-5D60-9737-7202733299DD">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-14 21:49:04 UTC</createdTime>
+<generatorID>C994EB25-3C4E-6F01-DD1D-D187811B2A01</generatorID>
+<ownerDesignName>AGENDA - Atividade - Cap 5</ownerDesignName>
+<engineerTo>
+<item key="D5354DDC-0A7D-5AA9-6E8B-EF6DE9FFD90F" value="true"/>
+</engineerTo>
+<referedAttribute>A1B35A6B-C5CB-2276-D15C-A66E038942B7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

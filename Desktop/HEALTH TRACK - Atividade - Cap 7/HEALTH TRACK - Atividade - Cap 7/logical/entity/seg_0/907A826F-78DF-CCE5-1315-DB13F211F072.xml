@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_pressao_arterial" id="F4B8DACA-E90A-D89B-7977-087B2AACC955">
 <createdBy>cesar.rodrigues</createdBy>
@@ -56,7 +56,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nr_senha" id="23716903-BA61-949A-C41D-6CA3EC4EECF7">
 <createdBy>cesar.rodrigues</createdBy>

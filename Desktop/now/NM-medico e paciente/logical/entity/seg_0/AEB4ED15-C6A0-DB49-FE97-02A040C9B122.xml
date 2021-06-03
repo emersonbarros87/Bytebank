@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEB4ED15-C6A0-DB49-FE97-02A040C9B122" name="T_PRESCRICAO">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:45:34 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_consulta" id="7100B6F4-F475-CA1E-6DCA-399B61BD4FE8">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:48:16 UTC</createdTime>
+<generatorID>FCB5532A-624A-3C1B-0EC5-893A2E84A118</generatorID>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<referedAttribute>EEAD300B-C274-7C24-59B3-31254CBB8CCD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_medicamento" id="8E5C93F3-F676-2785-79A0-2AC6C8F3D32B">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:50:18 UTC</createdTime>
+<generatorID>90F7DEF5-F6FB-A5DF-BFD7-F37B971DB46B</generatorID>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<referedAttribute>2B9C89D4-F828-503F-7F9F-A4A8E1C2FDAA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_posologia" id="63421021-B16C-4ED5-44BB-45943D35D7BF">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:46:32 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_via" id="AEF67EC8-B0B7-6690-7792-12D7F37E1457">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:46:46 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_uso" id="776CD14B-CFE0-6B3A-C824-6BC4485B47C7">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:47:14 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B303B8BD-EB35-6F1C-3F4E-F1FA3D5A70F8" name="T_PRESCRICAO PK">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-11 02:48:16 UTC</createdTime>
+<ownerDesignName>NM-medico e paciente</ownerDesignName>
+<engineerTo>
+<item key="DBAB2F6C-9D3D-A7F1-5C57-463BE67CB72A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7100B6F4-F475-CA1E-6DCA-399B61BD4FE8</attributeRef>
+<attributeRef>8E5C93F3-F676-2785-79A0-2AC6C8F3D32B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

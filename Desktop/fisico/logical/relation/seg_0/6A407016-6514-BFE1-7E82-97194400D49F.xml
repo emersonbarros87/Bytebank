@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="consumir" directorySegmentName="seg_0" id="6A407016-6514-BFE1-7E82-97194400D49F">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-16 18:19:34 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8D21D8B1-E70A-A0A0-CF64-71D3E3C410DE" value="true"/>
+</engineerTo>
+<sourcePk>AE2A7862-24BE-C903-AAED-6D3F86F87C91</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3046734-9529-E94A-BCA5-C88E240898A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60CD08DC-362A-6F47-73DB-485F765436D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ter" directorySegmentName="seg_0" id="8C24CCCC-ED1B-92B9-0826-DFC7230F7ABE">
+<createdBy>Emerson</createdBy>
+<createdTime>2021-05-29 14:29:40 UTC</createdTime>
+<ownerDesignName>PROJECT FIAP #4</ownerDesignName>
+<engineerTo>
+<item key="6F40399E-F074-EB08-1069-997E389306B4" value="true"/>
+</engineerTo>
+<sourcePk>3FB5AA63-EA86-2BD3-18AE-B0CED8544016</sourcePk>
+<targetPk>C2765DCE-DC02-6894-0717-87D3EA2CF158</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E3C4724F-B49B-0750-C3D0-71EFC8A28B4F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C4BD459C-A79C-A835-184C-341FC28721AA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

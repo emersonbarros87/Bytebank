@@ -16,11 +16,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cd_usuario_fk" id="F7665838-805B-3708-DBFD-F20F2BD7DB70">
+<Column name="T_HT_USUARIO_cd_usuario" id="F7665838-805B-3708-DBFD-F20F2BD7DB70">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>0A4DBC15-8292-61AC-9BE8-8EB35973239D</generatorID>
@@ -29,14 +29,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="A3AEC8BE-6051-C8F7-11EB-BC3758FFAEAD" referredColumn="C39C02C7-08F0-D05F-DE00-3542FDED9288"/>
 </associations>
 </Column>
-<Column name="cd_atividade_fk" id="1F66243E-3D72-896E-13DE-C62A689AFFB8">
+<Column name="T_HT_ATIVIDADE_FISICA_cd_atividade" id="1F66243E-3D72-896E-13DE-C62A689AFFB8">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>9D5A70A8-3E54-A896-4BA3-FD92938CD020</generatorID>
@@ -45,7 +45,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -66,7 +66,7 @@
 <colUsage columnID="F7665838-805B-3708-DBFD-F20F2BD7DB70"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ADBBF633-7B9A-16A7-B80D-7874A31DF6FF" name="HT_U_ATIVIDADE_FISICA_FK">
+<ind_PK_UK id="ADBBF633-7B9A-16A7-B80D-7874A31DF6FF" name="T_HT_USUARIO_ATIVIDADE_T_HT_ATIVIDADE_FISICA_FK">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>0A86CB05-D364-C565-F9F7-972716C2F3ED</generatorID>
@@ -77,7 +77,7 @@
 <colUsage columnID="1F66243E-3D72-896E-13DE-C62A689AFFB8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1BB954D2-C2C8-AC10-0F9E-EAEEB8084BD6" name="HT_U_ATIVIDADE_USUARIO_FK">
+<ind_PK_UK id="1BB954D2-C2C8-AC10-0F9E-EAEEB8084BD6" name="T_HT_USUARIO_ATIVIDADE_T_HT_USUARIO_FK">
 <createdBy>cesar.rodrigues</createdBy>
 <createdTime>2020-05-15 16:59:38 UTC</createdTime>
 <generatorID>8E5C583C-98B7-3104-2094-7511FDF71C47</generatorID>
