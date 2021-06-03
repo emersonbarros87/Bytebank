@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="63E330E8-4D5C-11BF-E17A-8FD0C2550537" mainViewID="7DC3DF7A-368B-0F4E-4976-9DAE0896412A">
-<createdBy>Emerson</createdBy>
-<createdTime>2021-05-16 17:52:07 UTC</createdTime>
-<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

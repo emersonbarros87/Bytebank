@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="18CBF784-5D96-F726-9E51-4FF48753A06E" mainViewID="DA9D3169-155E-7EAB-F072-F0D0438FDEC7">
-<createdBy>Emerson</createdBy>
-<createdTime>2021-05-28 23:32:35 UTC</createdTime>
-<ownerDesignName>Project FIAP</ownerDesignName>
-<shouldBeOpen>true</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>

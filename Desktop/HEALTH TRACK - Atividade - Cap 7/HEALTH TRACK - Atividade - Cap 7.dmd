@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HEALTH TRACK - Atividade - Cap 7" id="EEC5D7D9-F685-F2C4-2F02-707CA2A15316" version="3.5">
-<createdBy>Emerson</createdBy>
-<createdTime>2021-05-16 17:52:07 UTC</createdTime>
-<ownerDesignName>HEALTH TRACK - Atividade - Cap 7</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>EEC5D7D9-F685-F2C4-2F02-707CA2A15316</designId>
-</OSDM_Design>
